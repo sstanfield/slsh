@@ -1,0 +1,20 @@
+# to build
+```
+docker build -t jekyll .
+```
+
+# to run
+```
+docker run --rm --name jekyll -it -p 4000:4000 -v $PWD:/tmp jekyll
+```
+# to run forever (make sure this command is run in the docs/ subdirectory
+docker run -d --restart=always -it -p 4000:4000 --name jekyll -v $PWD:/tmp jekyll
+
+# to view
+in browser visit localhost:4000
+
+# to view state of jekyll watcher to check for reload times or errors
+docker logs -f 
+
+# to auto reload when certain files change.
+(loop () () (do $(inotifywait -e close_write <TARGET-FILE1> <TARGET-FILE2> ...) $(sl-sh docify.lisp) (recur)))

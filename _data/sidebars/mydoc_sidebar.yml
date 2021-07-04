@@ -1,0 +1,218 @@
+
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: sl-sh doc
+  version: 0.9.58
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+  - title: Overview
+    output: web, pdf
+    folderitems:
+
+    - title: Get started
+      url: /index.html
+      output: web, pdf
+      type: homepage
+
+    - title: Introduction
+      url: /mydoc_introduction.html
+      output: web, pdf
+
+    - title: Support
+      url: /mydoc_support.html
+      output: web, pdf
+
+    - title: FAQ
+      url: /mydoc_faq_layout.html
+      output: web, pdf
+
+  - title: Lisp
+    output: web, pdf
+    folderitems:
+
+    - title: Documentation
+      url: /mydoc_documentation.html
+      output: web, pdf
+
+    - title: Reader
+      url: /mydoc_reader.html
+      output: web, pdf
+
+
+
+  - title: Standard Library
+    output: web, pdf
+    folderitems:
+
+    - title: Sl-sh Forms
+      url: /mydoc_api.html
+      output: web, pdf
+      subfolders:
+
+      - title: Quick Links
+        output: web
+        subfolderitems:
+
+        - title: char
+          url: /mydoc_api.html#char-body
+          output: web
+
+        - title: conditional
+          url: /mydoc_api.html#conditional-body
+          output: web
+
+        - title: core
+          url: /mydoc_api.html#core-body
+          output: web
+
+        - title: file
+          url: /mydoc_api.html#file-body
+          output: web
+
+        - title: globals
+          url: /mydoc_api.html#globals-body
+          output: web
+
+        - title: hashmap
+          url: /mydoc_api.html#hashmap-body
+          output: web
+
+        - title: iterator
+          url: /mydoc_api.html#iterator-body
+          output: web
+
+        - title: logger
+          url: /mydoc_api.html#logger-body
+          output: web
+
+        - title: math
+          url: /mydoc_api.html#math-body
+          output: web
+
+        - title: namespace
+          url: /mydoc_api.html#namespace-body
+          output: web
+
+        - title: pair
+          url: /mydoc_api.html#pair-body
+          output: web
+
+        - title: pair-ext
+          url: /mydoc_api.html#pair-ext-body
+          output: web
+
+        - title: random
+          url: /mydoc_api.html#random-body
+          output: web
+
+        - title: root
+          url: /mydoc_api.html#root-body
+          output: web
+
+        - title: scripting
+          url: /mydoc_api.html#scripting-body
+          output: web
+
+        - title: sequence
+          url: /mydoc_api.html#sequence-body
+          output: web
+
+        - title: shell
+          url: /mydoc_api.html#shell-body
+          output: web
+
+        - title: stats
+          url: /mydoc_api.html#stats-body
+          output: web
+
+        - title: string
+          url: /mydoc_api.html#string-body
+          output: web
+
+        - title: struct
+          url: /mydoc_api.html#struct-body
+          output: web
+
+        - title: system
+          url: /mydoc_api.html#system-body
+          output: web
+
+        - title: test
+          url: /mydoc_api.html#test-body
+          output: web
+
+        - title: threading-macros
+          url: /mydoc_api.html#threading-macros-body
+          output: web
+
+        - title: type
+          url: /mydoc_api.html#type-body
+          output: web
+
+        - title: vector
+          url: /mydoc_api.html#vector-body
+          output: web
+
+
+  - title: Shell
+    output: web, pdf
+    folderitems:
+
+    - title: Shell Reader
+      url: /mydoc_shellreader.html
+      output: web, pdf
+
+    - title: Namespaces
+      url: /mydoc_namespaces.html
+      output: web, pdf
+
+    - title: Slshrc config
+      url: /mydoc_slshrc_config.html
+      output: web, pdf
+
+    - title: Working with files
+      url: /mydoc_files.html
+      output: web, pdf
+
+    - title: Endfix notation on the REPL
+      url: /mydoc_endfix.html
+      output: web, pdf
+
+    - title: Scripting
+      url: /mydoc_scripting.html
+      output: web, pdf
+
+    - title: Pipes
+      url: /mydoc_pipes.html
+      output: web, pdf
+
+  - title: Release Notes
+    output: web, pdf
+    folderitems:
+
+    - title: 1.0 Blockers
+      url: /mydoc_blockers_1_0.html
+      output: web, pdf
+
+  - title: Contributing
+    output: web, pdf
+
+    folderitems:
+    - title: Pull Requests
+      url: /mydoc_pull_requests.html
+      output: web, pdf
